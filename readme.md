@@ -1,5 +1,5 @@
 # WipProtect
-:eyes: Protect your new october instance from perky eyes before launch date.
+:eyes: Protect your new october project from perky eyes before launch date.
 
 When sharing your WIP with your client, you want only your client to be able to
 view your work.

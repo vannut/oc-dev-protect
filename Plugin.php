@@ -2,11 +2,8 @@
 
 namespace Vannut\WipProtect;
 
-/**
- * The plugin.php file (called the plugin initialization script) defines the plugin information class.
- */
-
 use System\Classes\PluginBase;
+use System\Classes\SettingsManager;
 
 class Plugin extends PluginBase
 {
@@ -32,9 +29,9 @@ class Plugin extends PluginBase
     {
         return [
             'settings' => [
-                'label'       => 'PerkyEyes Settings',
-                'description' => 'Manage the PerkyEyes settings to shield your WIP.',
-                'category'    => 'System',
+                'label'       => 'WipProtect Settings',
+                'description' => 'Shield your WIP from perky eyes.',
+                'category'    => SettingsManager::CATEGORY_SYSTEM,
                 'icon'        => 'icon-eye-slash',
                 'class'       => 'Vannut\WipProtect\Models\Settings',
                 'order'       => 500,
