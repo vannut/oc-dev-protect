@@ -27,6 +27,7 @@ class Plugin extends PluginBase
             $controller->middleware(\Vannut\WipProtect\Classes\Middleware::class);
         });
     }
+
     public function registerSettings()
     {
         return [
