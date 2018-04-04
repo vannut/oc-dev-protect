@@ -1,0 +1,13 @@
+fields:
+  is_enabled:
+    label: Should we shield the website from perky eyes?
+    type: switch
+    commentAbove: "Caution: this is NOT a solid way to password protect an application."
+  digits:
+    label: Authorization code
+    type: number
+    span: left
+    trigger:
+      action: show
+      field: is_enabled
+      condition: checked
