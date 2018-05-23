@@ -1,11 +1,11 @@
 <?php
 
-Route::get('/set', function () {
-    Session::keep('vannut_wipprotect', true);
+// Route::get('/set', function () {
+//     Session::keep('vannut_wipprotect', true);
 
-    return Session::all();
-});
+//     return Session::all();
+// });
 
-Route::get('/test', function () {
-    return 'test-route';
-});
+// Route::get('/test', function () {
+//     return 'test-route';
+// });
